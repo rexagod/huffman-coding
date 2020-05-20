@@ -8,7 +8,9 @@ A C++ compression and decompression program based on Huffman Coding.
 4. Karan Dev Tyagi - 9917103081 - F3
 
 ## Introduction
-The following code uses Huffman coding algorithm which encodes any text file. Normal encoding converts evey character into 8 bits regardless of the frequency of the character appearing in it, but the logic behind Huffman coding is it encodes according to the frequency of characters i.e. the character having max frequency require very less bits for representation and character having less frequency take more bits. Since the max frequency character are more prominent and represented with less number of bits so overall encoding size decreases, hence acting as compressor as well.
+The following code uses Huffman coding algorithm which encodes any text file. Normal encoding converts every character into 8 bits regardless of the frequency of the character appearing in it, but the logic behind Huffman coding is it encodes according to the frequency of characters i.e. the character having max frequency require very less bits for representation and character having less frequency take more bits.
+
+Since the max frequency character are more prominent and represented with less number of bits, therefore the overall encoding size decreases, hence acting as a compressor.
 
 ## Implementation Details
 The programs can compress and decompress text file consisting of 128 ASCII characters.
